@@ -1,13 +1,9 @@
 var romanNumeral = function(basicNumber) {
+  var finalRomanNumeral = [];
 
-
-
-
-
-
-
-
-
+    if (basicNumber = 1) {
+      return "I";
+  };
 
 };
 
