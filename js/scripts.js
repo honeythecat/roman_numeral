@@ -1,10 +1,13 @@
 var romanNumeral = function(basicNumber) {
   var finalRomanNumeral = [];
 
-    if (basicNumber = 1) {
-      return "I";
-  };
+    for (var i = 0; i < basicNumber; i++) {
+      // if (basicNumber.indexOf("") > 4
+        finalRomanNumeral.push("I");
+        var fuck = finalRomanNumeral.join("");
 
+    };
+  return fuck;
 };
 
 // // ---------- jquery below ------------
